@@ -22,7 +22,7 @@ import com.CV.BackEnd.Service.IPersonaService;
 
 @RestController
 @RequestMapping("CV/V1")
-@CrossOrigin("http://localhost:4200/")
+@CrossOrigin("https://portfolio-frontend-lls.web.app/")
 public class PersonaController {
     @Autowired
     private IPersonaService service;
