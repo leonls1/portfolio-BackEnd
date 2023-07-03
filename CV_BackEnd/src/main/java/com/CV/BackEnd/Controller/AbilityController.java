@@ -23,7 +23,10 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 @RequestMapping("CV/V1")
-@CrossOrigin("https://portfolio-frontend-lls.web.app/")
+//@CrossOrigin("https://portfolio-frontend-lls.web.app/")
+
+//para el desarrollo
+@CrossOrigin("http://localhost:4200/")
 public class AbilityController {
     
     @Autowired
